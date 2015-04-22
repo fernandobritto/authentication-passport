@@ -1,0 +1,2 @@
+# AngularJS-app-list-of-wishes
+O aplicativo Lista de Desejos tem o objetivo de listar os dados e três desejos dos clientes, permitindo a visualização e a inserção de novos clientes, assim que você clicar na lâmpada magica você verá o nosso formulários, onde está os nossos clientes e na página de produtos está listado seus respectivos desejos. Esta aplicativos foi desenvolvido utilizando o framework JavaScript , Angular JS e o Bootstrap para ativar os recursos de responsivos.
