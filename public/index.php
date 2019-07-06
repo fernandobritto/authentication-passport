@@ -1,11 +1,10 @@
 <?php
-
 require __DIR__. '/../vendor/autoload.php';
 
-var_dump($_SERVER);
+$url = substr($_SERVER['REQUEST_URI'], 1);
+$url = explode('/', $url);
 
-// $url = $_SERVER['REQUEST_URI'];
-// $url = explode('/', $url)
+$controller = isset($url[0]) ? $url[0] : 'page';
 
-// print_r($url);
+//print($controller);
 
