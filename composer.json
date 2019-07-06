@@ -1,0 +1,14 @@
+{
+    "name": "fernandobritto/infoenter",
+    "authors": [
+        {
+            "name": "Fernando Britto",
+            "email": "me@fernandobritto.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Code\\": "src/"
+        }
+    }
+}
