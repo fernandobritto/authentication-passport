@@ -1,5 +1,7 @@
 {
 	"autoload":{
-		"InfoEnter\\": "src/"
+		"psr-4":{
+			"Infoenter\\": "src/"
+		}
 	}
 }
