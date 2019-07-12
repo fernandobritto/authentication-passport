@@ -3,8 +3,9 @@ namespace Infoenter\Controller;
 
 class ProductController
 {
-	public function index()
+	public function show($id)
 	{
-
+		return $id;
 	}
 }
+
