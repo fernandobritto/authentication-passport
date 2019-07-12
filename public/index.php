@@ -9,12 +9,11 @@ $controller = isset($url[0]) && $url[0] ? $url[0] : 'page';
 $action     = isset($url[1]) && $url[1] ? $url[1] : 'index';
 
 
-$controller = "Infoenter\Controller\\". ucfirst($controller) . 'Controller';
+if(!class_exists($controller = "Infoenter\Controller\\". ucfirst($controller) . 'Controller')):
+	die("404 = Pagina não encontrada");
+endif;
 
 $response = call_user_func_array([new $controller, $action], []);
 
 print $response;
 
-// print 'Controller Default: '.$controller;
-// print "<br>";
-// print 'Metodo Default: '.$action;
