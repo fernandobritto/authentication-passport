@@ -20,7 +20,7 @@ if(!method_exists($controller, $action)):
 endif;
 
 
-$response = call_user_func_array([new $controller, $action], []);
+$response = call_user_func_array([new $controller, $action], [$param]);
 
 print $response;
 
