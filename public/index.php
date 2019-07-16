@@ -11,7 +11,7 @@ $param      = isset($url[2]) && $url[2] ? $url[2] :  null;
 
 
 if(!class_exists($controller = "Infoenter\Controller\\". ucfirst($controller) . 'Controller')):
-	die("404 = Pagina não encontrada");
+	die("404 - Pagina não encontrada");
 endif;
 
 if(!method_exists($controller, $action)):
