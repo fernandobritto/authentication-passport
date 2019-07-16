@@ -1,6 +1,6 @@
 <?php
 
-namespace View;
+namespace Infoenter\View;
 
 class View
 {

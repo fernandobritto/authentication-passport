@@ -2,10 +2,14 @@
 
 namespace Infoenter\Controller;
 
+use Infoenter\View\View;
+
 class PageController
 {
 	public function index()
 	{
-		return '<h1>Info Enter</h1>';
+		$view = new View('site/index.phtml');
+
+		return $view->render();
 	}
 }
