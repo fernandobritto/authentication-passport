@@ -4,7 +4,7 @@ namespace Infoenter\Controller;
 
 use Infoenter\View\View;
 
-class PageController
+class HomeController
 {
 	public function index()
 	{

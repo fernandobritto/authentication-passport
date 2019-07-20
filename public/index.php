@@ -5,7 +5,7 @@ require __DIR__ . '/../bootstrap.php';
 $url = substr($_SERVER['REQUEST_URI'], 1);
 $url = explode('/', $url);
 
-$controller = isset($url[0]) && $url[0] ? $url[0] : 'page';
+$controller = isset($url[0]) && $url[0] ? $url[0] : 'home';
 $action     = isset($url[1]) && $url[1] ? $url[1] : 'index';
 $param      = isset($url[2]) && $url[2] ? $url[2] :  null;
 
