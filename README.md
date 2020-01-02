@@ -1,3 +1,3 @@
 # Info Enter
 
-> Modelo de Site Institucional 
+> Institutional Website Template
