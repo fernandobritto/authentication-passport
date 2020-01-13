@@ -1,3 +1,2 @@
-# Info Enter
+# Authentication Passport
 
-> Institutional Website Template
