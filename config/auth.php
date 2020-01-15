@@ -42,6 +42,7 @@ return [
         ],
 
         'api' => [
+            // Troca do drive para Passport
             'driver' => 'passport',
             'provider' => 'users',
             'hash' => false,
