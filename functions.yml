@@ -1,0 +1,20 @@
+api:
+  handler: ./src/index.handler
+  events:
+    - httpApi:
+        path: /
+        method: get
+customerInsert:
+  handler: ./src/lambdas/customer/insert.handler
+  events:
+    - httpApi:
+        path: /customer
+        method: post
+        cors: true
+customerRead:
+  handler: ./src/lambdas/customer/read.handler
+  events:
+    - httpApi:
+        path: /customer/{id}
+        method: get
+        cors: true
